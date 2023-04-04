@@ -6,7 +6,6 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>FirstChild</module>
-		<module>secondChild</module>
 		<module>thirdchild</module>
 	</modules>
 </project>

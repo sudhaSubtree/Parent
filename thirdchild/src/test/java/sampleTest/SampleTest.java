@@ -6,6 +6,6 @@ public class SampleTest {
 
 	@Test
 	public void sampleRun() {
-		System.out.println("done");
+		System.out.println("done successfully");
 	}
 }
