@@ -1,11 +1,14 @@
 package sampleTest;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
-public class SampleTest {
+import paautomation.PAAutomation;
+
+public class SampleTest extends PAAutomation{
 
 	@Test
-	public void sampleRun() {
+	public void sampleRun(){
 		System.out.println("done successfully");
+		//testdemo("Hello");
 	}
 }

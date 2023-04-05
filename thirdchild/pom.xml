@@ -1,17 +1,27 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-
- <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>com.hp</groupId>
-    <artifactId>parent</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-  </parent>
-  <artifactId>thirdchild</artifactId>
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.hp</groupId>
+		<artifactId>parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>thirdchild</artifactId>
+	<description>thirdchild</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<suiteName>sampletest.xml</suiteName>
+		<env>ITG</env>
+		<browser>chrome</browser>
+		<appType>web</appType>
+		<suiteName>suites/sampletest.xml</suiteName>
+		<projectName>PricingAnalytics Automation</projectName>
+		<WorkFlow>NA</WorkFlow>
+		<PlatformVersion>4.0</PlatformVersion>
+		<cyberark>no</cyberark>
+		<viewPort>no</viewPort>
+		<chromeextension>yes</chromeextension>
+		<emailpdl>to</emailpdl>
 	</properties>
 
 	<dependencies>
@@ -173,6 +183,20 @@
 						<project.build.sourceEncoding>${project.build.sourceEncoding}</project.build.sourceEncoding>
 						<project.reporting.outputEncoding>${project.reporting.outputEncoding}</project.reporting.outputEncoding>
 						<suiteName>${suiteName}</suiteName>
+						<appType>${appType}</appType>
+						<env>${env}</env>
+						<browser>${browser}</browser>
+						<device>${device}</device>
+						<projectName>${projectName}</projectName>
+						<email>${email}</email>
+						<workflow>${WorkFlow}</workflow>
+						<workflowNumber>${WorkFlowNumber}</workflowNumber>
+						<Platform>${PlatformVersion}</Platform>
+						<Cyberark>${cyberark}</Cyberark>
+						<chromeextension>${chromeextension}</chromeextension>
+						<Email>${emailpdl}</Email>
+						<viewPort>no</viewPort>
+
 					</systemPropertyVariables>
 				</configuration>
 			</plugin>
@@ -189,4 +213,5 @@
 			</plugin>
 		</plugins>
 	</build>
+
 </project>
