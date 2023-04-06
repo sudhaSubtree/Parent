@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.hp</groupId>
-    <artifactId>multimodulechild</artifactId>
+    <artifactId>parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>fourthchild</artifactId>

@@ -7,6 +7,6 @@
 	<modules>
 		<module>FirstChild</module>
 		<module>thirdchild</module>
-		<module>multimoduleTest</module>
+		<module>multimoduleTest/fourthchild</module>
 	</modules>
 </project>
