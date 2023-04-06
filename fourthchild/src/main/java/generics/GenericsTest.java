@@ -6,6 +6,7 @@ public class GenericsTest {
 		System.out.println("Testing the flow");
 		System.out.println("Testing the flow 2");
 		System.out.println("Testing the flow 3");
+		System.out.println("Testing the flow 4");
 		System.out.println(msg);
 	}
 }
